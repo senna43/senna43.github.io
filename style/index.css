@@ -1,0 +1,156 @@
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 60px;
+    font-size: 18px;
+}
+
+header .c-title .title {
+    font-weight: 600;
+}
+
+.container-m {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px 70px;
+}
+
+.container-m .child-1 {
+    padding-right: 180px;
+}
+
+.container-m .child-1  section .title {
+    font-size: 22px;
+}
+
+.container-m .child-1  section .sub-title {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.container-m .child-1  section .about {
+    font-size: 14px;
+}
+
+.container-m .child-1 section .about a {
+    text-decoration: none;
+    font-size: 15px;
+    color: blue;
+}
+
+.container-m .child-1 section .about .ocult {
+    display: none;
+    margin-top: 5px;
+}
+
+.container-m ul {
+    display: flex;
+    align-items: flex-start ;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+.container-m ul li .c-button-1 {
+    background-color: black;
+    margin-top: 25px;
+    transition: 0.3s;
+    margin-right: 15px;
+    font-weight: 600;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    width: 155px;
+    height: 50px;
+}
+
+.container-m ul li .c-button-2 {
+    background: none;
+    margin-top: 25px;
+    transition: 0.3s;
+    margin-right: 15px;
+    font-weight: 600;
+    border-radius: 4px;
+    border: 1px solid black;
+    color: black;
+    width: 155px;
+    height: 50px;
+}
+
+.container-m ul li .c-button-1:hover {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+.container-m ul li .c-button-2:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.container-m .child-2 .profile-image {
+    border-radius: 50%;
+}
+
+.container-about {
+    text-align: center;
+    padding: 5px 100px;
+}
+
+.container-about section .title {
+    font-size: 22px;
+}
+
+.container-about section .desc {
+    font-size: 15px;
+}
+
+footer {
+    display: none;
+}
+
+footer .c-main ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 180px;
+}
+
+footer .c-main ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer .c-main ul li .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    font-size: 22px;
+    height: 55px;
+    width: 55px;
+}
+
+footer .c-main ul li .t-network {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+footer .c-main ul li .name {
+    font-size: 15px;
+    font-weight: 400;
+}
