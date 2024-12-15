@@ -21,40 +21,48 @@ header .c-title .title {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 60px 70px;
+    padding: 45px 70px;
 }
 
 .container-m .child-1 {
     padding-right: 180px;
 }
 
-.container-m .child-1  section .title {
+.container-m .child-1 section .title {
     font-size: 22px;
 }
 
-.container-m .child-1  section .sub-title {
+.container-m .child-1 section .sub-title {
     font-size: 18px;
     margin: 5px 0;
 }
 
-.container-m .child-1  section .about {
+.container-m .child-1 section .about {
     font-size: 14px;
+    margin-top: 5px;
 }
 
 .container-m .child-1 section .about a {
+    transition: 0.2s;
     text-decoration: none;
+    margin-left: 5px;
     font-size: 15px;
     color: blue;
 }
 
+.container-m .child-1 section .about a:hover {
+    opacity: 85%;
+}
+
+
 .container-m .child-1 section .about .ocult {
     display: none;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .container-m ul {
     display: flex;
-    align-items: flex-start ;
+    align-items: flex-start;
     justify-content: flex-start;
     list-style: none;
 }
@@ -98,6 +106,7 @@ header .c-title .title {
 
 
 .container-m .child-2 .profile-image {
+    width: 220px;
     border-radius: 50%;
 }
 
