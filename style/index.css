@@ -164,14 +164,15 @@ footer .c-main ul li .name {
     font-weight: 400;
 }
 
-@media (max-width: 800px) {
-    header {
+@media (max-width: 750px) {
+    body {
+        display: none;
         padding: 25px 30px;
     }
 
     .container-m {
         flex-direction: column-reverse;
-        margin: 20px 75px;
+        margin: 15px 45px;
     }
 
     .container-m .child-2 section .profile-image {
